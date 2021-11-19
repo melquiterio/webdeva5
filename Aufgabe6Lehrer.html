@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aufgabe 6</title>
+    <style>
+        .flex{
+            display: flex;
+            justify-content:center;
+            align-items:center;
+        }
+        .flex div{
+            text-align:center;
+            margin: 10px;
+        }
+        .flex-item-1{
+            flex:1; /** 1/4 **/
+            background-color: lightgrey;
+        }
+        .flex-item-2{
+            flex:2; /** 2/4 **/
+            background-color: red;
+        }
+        .flex-item-3{
+                flex-grow: 2;
+                background-color:lightseagreen;
+                padding: 5px 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex"> <!-- Eltern Elemente -->
+        <div class="flex-item-1">Ein Element</div> <!-- Kind Elemente-->
+        <div class="flex-item-2">Ein Element</div> <!-- Kind Elemente-->
+        <div class="flex-item-1">Ein Element</div> <!-- Kind Elemente-->
+    </div>
+    <div class="flex"> <!-- Eltern Elemente -->
+        <div class="flex-item-1">Ein Element</div> <!-- Kind Elemente-->
+        <div class="flex-item-1">Ein Element</div> <!-- Kind Elemente-->
+    </div>
+    <div> 
+    <div class="flex"> <!-- Eltern Elemente -->
+        <div class="flex-item-1"> <!-- Kind Elemente-->
+            <div class="flex">
+                <div class="flex-item-3"> <!-- Kind Elemente-->
+                    <img src="haribo.png">
+                </div>
+                <div class="flex-item-3">Informationen</div> <!-- Kind Elemente-->
+            </div>
+        </div>
+        <div clasS="flex-item-1"> Ein Element</div> <!-- Kind Elemente-->
+    </div>
+</body>
+</html>
