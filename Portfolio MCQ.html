@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Final Projekt</title>
+  <style>
+  ul{ 
+    list-style-type: none;
+    width: 700px;
+    margin: 30px 20px 1px 600px;
+    }
+    li{
+        display: inline-block;
+    }
+    a{
+        text-decoration: none;
+        padding: 50px 50px;  
+        font-size: 16pt;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: green;
+        padding: 10px 10px; 
+
+    }
+    a:hover{
+        color: white;
+        background:magenta;
+    }
+    .flex{
+        display: flex;  
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    .flex-item-3{
+        background: grey;  
+        text-align: center;
+        }
+    .info{
+        color: darkblue;
+        font-size: 12px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .info:hover{
+        color: red;
+        font-size: 14px;
+        background-color: none;
+
+    }
+textarea{
+    border: black 3px dotted
+}
+table{
+    text-align: right;
+    text-decoration: underline;
+    }
+    tr,td,th{
+        border: 5px magenta solid
+            }
+
+form{
+    background-color: lightpink;
+}
+h2{
+    color: magenta;
+
+}
+
+  </style>
+</head>
+<body>
+  <ul>
+    <li><a href="https://www.google.de/">Startseite</a></li>
+    <li><a href="https://www.google.de/">About us</a></li>
+    <li><a href="https://www.google.de/">Jetzt kaufen</a></li>
+    <li><a href="https://www.google.de/">Kontakt</a></li>
+  </ul>
+  <br>
+  <div> 
+    <div class="flex">
+        <div class="flex-item-1">
+            <div class="flex">
+                <div class="flex-item-3"> 
+                    <img src="https://live.staticflickr.com/8010/6970332924_e388f69b4e_b.jpg" width="300px" height="300px">
+                    <div class="flex-item-3">Blume 1</div> 
+                    <div class="flex-item-1">
+                        <a href="https://www.google.de/" class="info">More Info</a>
+                   </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex">
+            <div class="flex-item-3"> 
+                <img src="https://img.bekiahogar.com/articulos/portada/96000/96467-h.jpg" width="300px" height="300px">
+                <div class="flex-item-3">Blume 2</div> 
+                <div class="flex-item-1">
+                    
+                    <a href="https://www.google.de/" class="info">More Info</a>
+               </div>
+            </div>
+        </div>
+        <div class="flex">
+            <div class="flex-item-3"> 
+                <img src="https://flores.culturamix.com/blog/wp-content/gallery/flor-narciso-4/Flor-Narciso-9.jpg" width="300px" height="300px">
+                <div class="flex-item-3">Blume 3</div> 
+                <div class="flex-item-1">
+                     <a href="https://www.google.de/" class="info">More Info</a>
+                </div> 
+            </div>
+        </div>
+    </div>
+
+    <br>
+  <div> 
+    <div class="flex">
+        <div class="flex-item-1">
+            <div class="flex">
+                <div class="flex-item-3"> 
+                    <img src="https://hortensias.fr/wp-content/uploads/2019/12/hydrangea-macrophylla-red-baron-1.jpg" width="300px" height="300px">
+                    <div class="flex-item-3">Blume 4</div> 
+                    <div class="flex-item-1">
+                        <a href="https://www.google.de/" class="info">More Info</a>
+                   </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex">
+            <div class="flex-item-3"> 
+                <img src="http://intervit.com.ve/wp-content/uploads/2019/05/flor2.jpg" width="300px" height="300px">
+                <div class="flex-item-3">Blume 5</div> 
+                <div class="flex-item-1">
+                    <a href="https://www.google.de/" class="info">More Info</a>
+               </div>
+            </div>
+        </div>
+        <div class="flex">
+            <div class="flex-item-3"> 
+                <img src="https://www.solofondos.com/wp-content/uploads/2018/04/flor-narciso-caracteristicas.jpg" width="300px" height="300px">
+                <div class="flex-item-3">Blume 6</div> 
+                <div class="flex-item-1">
+                     <a href="https://www.google.de/" class="info">More Info</a>
+                </div> 
+            </div>
+        </div>
+    </div>
+    <br>
+    <table>
+        <tr> 
+            <th>
+<a href="https://www.google.de/"> Farbe </a>
+            </th>
+            <th> 
+                <a href="https://www.google.de/"> Ursprung </a>      </th>
+            <th> <a href="https://www.google.de/"> Jahreszeit</a></th>
+        </tr>
+    </table>
+        <br>
+
+    <h2> Kontakt uns</h2>
+    <form> 
+        <label> Nachname </label>
+        <input type="text" placeholder="hier schreiben Sie">
+        <label> Vorname</label>
+        <input type="text"placeholder="hier schreiben Sie">
+        <br>
+        <span> Ihre Nachricht an uns</span>
+      <textarea></textarea>
+      <br>
+        <input type="checkbox">
+        <span> Ja, ich möchte den Newsletter abbonieren</span>
+    </form>
+    <form>
+        <label>
+        <input type="submit" value="Senden"> </label>
+    </form>
+    <br>
+    <a href="#top">Nach oben</a>
+    <div id="#top" class="flex-item-1"> </div>
+
+</body>
+</html>
